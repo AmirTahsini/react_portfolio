@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import Header from './Header';
-import Project from './Project';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
