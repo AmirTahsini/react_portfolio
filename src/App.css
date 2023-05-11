@@ -43,3 +43,9 @@ h3 {
   color: rgb(66, 171, 231);
   font-size: 20px;
 }
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -5,25 +5,25 @@ export default function Contact() {
     <div>
       <h1>Contact</h1>
       <form>
-        <div class="form-outline mb-4">
-          <input type="text" id="form4Example1" class="form-control" />
-          <label class="form-label" for="form4Example1">
+        <div className="form-outline mb-4">
+          <input type="text" id="form4Example1" className="form-control" />
+          <label className="form-label" htmlFor="form4Example1">
             Name
           </label>
         </div>
-        <div class="form-outline mb-4">
-          <input type="email" id="form4Example2" class="form-control" />
-          <label class="form-label" for="form4Example2">
+        <div className="form-outline mb-4">
+          <input type="email" id="form4Example2" className="form-control" />
+          <label className="form-label" htmlFor="form4Example2">
             Email address
           </label>
         </div>
-        <div class="form-outline mb-4">
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-          <label class="form-label" for="form4Example3">
+        <div className="form-outline mb-4">
+          <textarea className="form-control" id="form4Example3" rows="4"></textarea>
+          <label className="form-label" htmlFor="form4Example3">
             Message
           </label>
         </div>
-        <button type="submit" class="btn btn-primary btn-block mb-4">
+        <button type="submit" className="btn btn-primary btn-block mb-4">
           Send
         </button>
       </form>
