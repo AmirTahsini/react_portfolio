@@ -6,6 +6,7 @@ const Project = ({ project }) => {
       className="card"
       style={{
         width: '40%',
+        margin: '10px',
       }}
     >
       <img
@@ -14,10 +15,9 @@ const Project = ({ project }) => {
         alt="Card image cap"
       ></img>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
         <p className="card-text">{project.text}</p>
         <a href={project.url} className="btn btn-primary">
-          Go somewhere
+          GitHub Repo
         </a>
       </div>
     </div>

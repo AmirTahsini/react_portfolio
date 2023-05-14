@@ -1,51 +1,74 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-}
-
-#root {
-  background: linear-gradient(
-    90deg,
-    rgb(12, 44, 255) 0%,
-    rgb(0, 125, 250) 100%
-  );
-}
-
-body {
-  background-color: whitesmoke;
-}
-
-.bucket-app {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  max-width: 800px;
-  min-height: 600px;
-  background: black;
-  text-align: center;
-  margin: 0 auto;
-  padding-bottom: 32px;
-  height: 100vh;
-  overflow: scroll;
-}
-
-h1 {
-  margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
-}
-
-h3 {
-  margin: auto;
-  color: rgb(66, 171, 231);
-  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 .cardContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.body {
+  margin-bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(250, 251, 252) 0%,
+    rgb(0, 125, 250) 100%
+  );
+}
+
+header {
+  background: white;
+  margin-top: 10px;
+}
+
+header h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.footericon {
+  margin-right: 5px;
+}
+
+.nav {
+  margin: 10px;
+  width: 100%;
+}
+
+.aboutme {
+  margin: 10px;
+}
+
+.bio {
+  height: 100%;
+}
+
+.biopic {
+  height: 25%;
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.portfolio {
+  margin: 10px;
+}
+
+.resume {
+  margin: 10px;
 }
