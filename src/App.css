@@ -72,3 +72,8 @@ header h1 {
 .resume {
   margin: 10px;
 }
+
+.error-message {
+  color: red;
+  margin-left: 10px;
+}
