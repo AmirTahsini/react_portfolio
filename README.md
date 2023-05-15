@@ -22,7 +22,7 @@ NA
 
 ## Usage
 
-Access the application at the following url:
+Access the application at the following url: https://amirtahsini.github.io/react_portfolio/
 
 ![Note Taker homepage](./Screen%20Shot%202023-05-14%20at%2010.50.35%20AM.png)
 
